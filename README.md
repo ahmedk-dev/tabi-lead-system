@@ -1,3 +1,48 @@
+<!-- BEGIN:tabi-readme -->
+# Tabi Lead System
+
+Tabi Lead System (working name) is a Tabi Digital project to build a self-hostable WhatsApp
+and multi-channel lead-management platform. This repository is a fork of
+[ArnasDon/wacrm](https://github.com/ArnasDon/wacrm) (MIT licence).
+
+## Current status
+
+**Phase 1 (repository foundation) only.** The application code is the **unmodified upstream
+wacrm** at upstream commit `c81299d`. Nothing has been customised, rebranded, installed,
+configured or run. Tabi's additions so far are documentation and agent configuration only.
+The upstream product description below is accurate for upstream wacrm. It is **not** a
+statement of what Tabi Lead System does today.
+
+## Where to start
+
+| Document | Purpose |
+|---|---|
+| [`docs/resources/tabi-lead-system-spec-doc.md`](./docs/resources/tabi-lead-system-spec-doc.md) | Governing project specification |
+| [`AGENTS.md`](./AGENTS.md) | Rules for coding agents working in this repository |
+| [`docs/reports/`](./docs/reports/) | Phase reports (what was done and verified) |
+| [`docs/architecture/`](./docs/architecture/README.md), [`docs/audits/`](./docs/audits/README.md), [`docs/testing/`](./docs/testing/README.md), [`docs/security/`](./docs/security/README.md), [`docs/deployment/`](./docs/deployment/README.md) | Area documentation (placeholders until populated by later phases) |
+
+## Git remotes
+
+- `origin`: `https://github.com/ahmedk-dev/tabi-lead-system` (Tabi fork)
+- `upstream`: `https://github.com/ArnasDon/wacrm` (read-only source; never push to it)
+
+## Licence and attribution
+
+MIT, Copyright (c) 2026 Arnas Donauskas (see [`LICENSE`](./LICENSE)). The licence and
+copyright notice must remain. Upstream asks public forks to replace its name, favicon and
+`wacrm.tech` URL before a deployment is put in front of users. That rebranding has **not**
+been done yet and is planned for a later phase.
+
+---
+
+## Upstream README (wacrm)
+
+The remainder of this file is the upstream README, kept unchanged to ease future merges.
+Verify its claims against the code before relying on them.
+
+<!-- END:tabi-readme -->
+
 # wacrm — CRM Template for WhatsApp
 
 > Self-hostable CRM template for WhatsApp® — shared inbox, contacts,
